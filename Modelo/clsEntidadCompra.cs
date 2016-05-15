@@ -8,9 +8,11 @@ namespace Modelo
 {
     public class clsEntidadCompra
     {
+        // Hola Luis
         #region Atributos
         private string cedula;
         private int total;
+
         #endregion
 
         #region Propiedades
