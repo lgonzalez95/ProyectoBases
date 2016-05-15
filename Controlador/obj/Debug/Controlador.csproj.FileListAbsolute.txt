@@ -5,3 +5,10 @@ f:\documentos\visual studio 2015\Projects\PracticaExamen\Controlador\bin\Debug\M
 f:\documentos\visual studio 2015\Projects\PracticaExamen\Controlador\obj\Debug\Controlador.csprojResolveAssemblyReference.cache
 f:\documentos\visual studio 2015\Projects\PracticaExamen\Controlador\obj\Debug\Controlador.dll
 f:\documentos\visual studio 2015\Projects\PracticaExamen\Controlador\obj\Debug\Controlador.pdb
+F:\Documentos\Visual Studio 2015\Projects\ProyectoBases\Controlador\bin\Debug\Controlador.dll
+F:\Documentos\Visual Studio 2015\Projects\ProyectoBases\Controlador\bin\Debug\Controlador.pdb
+F:\Documentos\Visual Studio 2015\Projects\ProyectoBases\Controlador\bin\Debug\Modelo.dll
+F:\Documentos\Visual Studio 2015\Projects\ProyectoBases\Controlador\bin\Debug\Modelo.pdb
+F:\Documentos\Visual Studio 2015\Projects\ProyectoBases\Controlador\obj\Debug\Controlador.csprojResolveAssemblyReference.cache
+F:\Documentos\Visual Studio 2015\Projects\ProyectoBases\Controlador\obj\Debug\Controlador.dll
+F:\Documentos\Visual Studio 2015\Projects\ProyectoBases\Controlador\obj\Debug\Controlador.pdb
