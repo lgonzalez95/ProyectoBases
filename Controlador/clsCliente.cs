@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Controlador
 {
-    class clsCliente
+    public class clsCliente
     {
+        int o;
+        private int prueba;
     }
 }
