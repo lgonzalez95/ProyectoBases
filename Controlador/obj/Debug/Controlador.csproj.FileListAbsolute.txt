@@ -1,0 +1,7 @@
+f:\documentos\visual studio 2015\Projects\PracticaExamen\Controlador\bin\Debug\Controlador.dll
+f:\documentos\visual studio 2015\Projects\PracticaExamen\Controlador\bin\Debug\Controlador.pdb
+f:\documentos\visual studio 2015\Projects\PracticaExamen\Controlador\bin\Debug\Modelo.dll
+f:\documentos\visual studio 2015\Projects\PracticaExamen\Controlador\bin\Debug\Modelo.pdb
+f:\documentos\visual studio 2015\Projects\PracticaExamen\Controlador\obj\Debug\Controlador.csprojResolveAssemblyReference.cache
+f:\documentos\visual studio 2015\Projects\PracticaExamen\Controlador\obj\Debug\Controlador.dll
+f:\documentos\visual studio 2015\Projects\PracticaExamen\Controlador\obj\Debug\Controlador.pdb

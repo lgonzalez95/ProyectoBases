@@ -1,0 +1,5 @@
+f:\documentos\visual studio 2015\Projects\PracticaExamen\Modelo\bin\Debug\Modelo.dll
+f:\documentos\visual studio 2015\Projects\PracticaExamen\Modelo\bin\Debug\Modelo.pdb
+f:\documentos\visual studio 2015\Projects\PracticaExamen\Modelo\obj\Debug\Modelo.csprojResolveAssemblyReference.cache
+f:\documentos\visual studio 2015\Projects\PracticaExamen\Modelo\obj\Debug\Modelo.dll
+f:\documentos\visual studio 2015\Projects\PracticaExamen\Modelo\obj\Debug\Modelo.pdb
