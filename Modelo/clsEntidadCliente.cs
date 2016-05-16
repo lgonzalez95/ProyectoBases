@@ -10,10 +10,8 @@ namespace Modelo
     {
         #region Atributos
         private string cedula;
-        private string nombreCompleto;
-        private int tipoCliente;
-        private string telefono;
-        private string email;
+        private string nombre;        
+        private string apellidos;        
         #endregion
 
         #region Propiedades
@@ -23,22 +21,17 @@ namespace Modelo
         {
             this.cedula = cedula;
         }
-        public void setNombreCompleto(string nombreCompleto)
+
+        public void setNombre(string nombre)
         {
-            this.nombreCompleto = nombreCompleto;
+            this.nombre = nombre;
         }
-        public void setTelefono(string telefono)
+        public void setApellidos(string apellidos)
         {
-            this.telefono = telefono;
+            this.apellidos = apellidos;
         }
-        public void setEmail(string email)
-        {
-            this.email = email;
-        }
-        public void setTipoCliente(int tipo)
-        {
-            this.tipoCliente = tipo;
-        }
+             
+        
 
         //Get
 
@@ -46,22 +39,15 @@ namespace Modelo
         {
             return this.cedula;
         }
-        public string getNombreCompleto()
+        public string getNombre()
         {
-            return this.nombreCompleto;
+            return this.nombre;
         }
-        public string getTelefono()
+        public string getApellidos()
         {
-            return this.telefono;
+            return this.apellidos;
         }
-        public string getEmail()
-        {
-            return this.email;
-        }
-        public int getTipoCliente()
-        {
-            return this.tipoCliente;
-        }
+        
         #endregion
     }
 }
