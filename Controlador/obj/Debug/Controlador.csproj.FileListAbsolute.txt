@@ -12,3 +12,10 @@ F:\Documentos\Visual Studio 2015\Projects\ProyectoBases\Controlador\bin\Debug\Mo
 F:\Documentos\Visual Studio 2015\Projects\ProyectoBases\Controlador\obj\Debug\Controlador.csprojResolveAssemblyReference.cache
 F:\Documentos\Visual Studio 2015\Projects\ProyectoBases\Controlador\obj\Debug\Controlador.dll
 F:\Documentos\Visual Studio 2015\Projects\ProyectoBases\Controlador\obj\Debug\Controlador.pdb
+F:\Documentos\Visual Studio 2015\Projects\GitBases\ProyectoBases\Controlador\bin\Debug\Controlador.dll
+F:\Documentos\Visual Studio 2015\Projects\GitBases\ProyectoBases\Controlador\bin\Debug\Controlador.pdb
+F:\Documentos\Visual Studio 2015\Projects\GitBases\ProyectoBases\Controlador\bin\Debug\Modelo.dll
+F:\Documentos\Visual Studio 2015\Projects\GitBases\ProyectoBases\Controlador\bin\Debug\Modelo.pdb
+F:\Documentos\Visual Studio 2015\Projects\GitBases\ProyectoBases\Controlador\obj\Debug\Controlador.csprojResolveAssemblyReference.cache
+F:\Documentos\Visual Studio 2015\Projects\GitBases\ProyectoBases\Controlador\obj\Debug\Controlador.dll
+F:\Documentos\Visual Studio 2015\Projects\GitBases\ProyectoBases\Controlador\obj\Debug\Controlador.pdb

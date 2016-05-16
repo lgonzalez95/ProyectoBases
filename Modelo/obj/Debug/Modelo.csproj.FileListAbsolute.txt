@@ -3,3 +3,8 @@ f:\documentos\visual studio 2015\Projects\PracticaExamen\Modelo\bin\Debug\Modelo
 f:\documentos\visual studio 2015\Projects\PracticaExamen\Modelo\obj\Debug\Modelo.csprojResolveAssemblyReference.cache
 f:\documentos\visual studio 2015\Projects\PracticaExamen\Modelo\obj\Debug\Modelo.dll
 f:\documentos\visual studio 2015\Projects\PracticaExamen\Modelo\obj\Debug\Modelo.pdb
+F:\Documentos\Visual Studio 2015\Projects\GitBases\ProyectoBases\Modelo\bin\Debug\Modelo.dll
+F:\Documentos\Visual Studio 2015\Projects\GitBases\ProyectoBases\Modelo\bin\Debug\Modelo.pdb
+F:\Documentos\Visual Studio 2015\Projects\GitBases\ProyectoBases\Modelo\obj\Debug\Modelo.csprojResolveAssemblyReference.cache
+F:\Documentos\Visual Studio 2015\Projects\GitBases\ProyectoBases\Modelo\obj\Debug\Modelo.dll
+F:\Documentos\Visual Studio 2015\Projects\GitBases\ProyectoBases\Modelo\obj\Debug\Modelo.pdb
