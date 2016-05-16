@@ -18,3 +18,8 @@ F:\Documentos\Visual Studio 2015\Projects\ProyectoBases\Modelo\bin\Debug\Modelo.
 F:\Documentos\Visual Studio 2015\Projects\ProyectoBases\Modelo\obj\Debug\Modelo.csprojResolveAssemblyReference.cache
 F:\Documentos\Visual Studio 2015\Projects\ProyectoBases\Modelo\obj\Debug\Modelo.dll
 F:\Documentos\Visual Studio 2015\Projects\ProyectoBases\Modelo\obj\Debug\Modelo.pdb
+C:\Users\acerpc\Documents\ProyectoBasesNube\ProyectoBases\Modelo\bin\Debug\Modelo.dll
+C:\Users\acerpc\Documents\ProyectoBasesNube\ProyectoBases\Modelo\bin\Debug\Modelo.pdb
+C:\Users\acerpc\Documents\ProyectoBasesNube\ProyectoBases\Modelo\obj\Debug\Modelo.csprojResolveAssemblyReference.cache
+C:\Users\acerpc\Documents\ProyectoBasesNube\ProyectoBases\Modelo\obj\Debug\Modelo.dll
+C:\Users\acerpc\Documents\ProyectoBasesNube\ProyectoBases\Modelo\obj\Debug\Modelo.pdb
