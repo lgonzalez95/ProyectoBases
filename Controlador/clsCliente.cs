@@ -8,6 +8,7 @@ namespace Controlador
 {
     public class clsCliente
     {
+        int o;
         private int prueba;
     }
 }
