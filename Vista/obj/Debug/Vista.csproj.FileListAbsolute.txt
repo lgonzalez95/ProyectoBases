@@ -37,3 +37,29 @@ F:\Documentos\Visual Studio 2015\Projects\ProyectoBases\Vista\obj\Debug\Vista.cs
 F:\Documentos\Visual Studio 2015\Projects\ProyectoBases\Vista\obj\Debug\Vista.frmCompra.resources
 F:\Documentos\Visual Studio 2015\Projects\ProyectoBases\Vista\obj\Debug\Vista.Properties.Resources.resources
 F:\Documentos\Visual Studio 2015\Projects\ProyectoBases\Vista\obj\Debug\Vista.csproj.GenerateResource.Cache
+F:\Documentos\Visual Studio 2015\Projects\GitBases\ProyectoBases\Vista\bin\Debug\Vista.exe.config
+F:\Documentos\Visual Studio 2015\Projects\GitBases\ProyectoBases\Vista\obj\Debug\Vista.exe
+F:\Documentos\Visual Studio 2015\Projects\GitBases\ProyectoBases\Vista\obj\Debug\Vista.pdb
+F:\Documentos\Visual Studio 2015\Projects\GitBases\ProyectoBases\Vista\bin\Debug\Vista.exe
+F:\Documentos\Visual Studio 2015\Projects\GitBases\ProyectoBases\Vista\bin\Debug\Vista.pdb
+F:\Documentos\Visual Studio 2015\Projects\GitBases\ProyectoBases\Vista\bin\Debug\Controlador.dll
+F:\Documentos\Visual Studio 2015\Projects\GitBases\ProyectoBases\Vista\bin\Debug\Modelo.dll
+F:\Documentos\Visual Studio 2015\Projects\GitBases\ProyectoBases\Vista\bin\Debug\Controlador.pdb
+F:\Documentos\Visual Studio 2015\Projects\GitBases\ProyectoBases\Vista\bin\Debug\Modelo.pdb
+F:\Documentos\Visual Studio 2015\Projects\GitBases\ProyectoBases\Vista\obj\Debug\Vista.csprojResolveAssemblyReference.cache
+F:\Documentos\Visual Studio 2015\Projects\GitBases\ProyectoBases\Vista\obj\Debug\Vista.frmCompra.resources
+F:\Documentos\Visual Studio 2015\Projects\GitBases\ProyectoBases\Vista\obj\Debug\Vista.Properties.Resources.resources
+F:\Documentos\Visual Studio 2015\Projects\GitBases\ProyectoBases\Vista\obj\Debug\Vista.csproj.GenerateResource.Cache
+C:\Users\Diego\Desktop\Investigacion Bases\ProyectoBases\Vista\bin\Debug\Vista.exe.config
+C:\Users\Diego\Desktop\Investigacion Bases\ProyectoBases\Vista\bin\Debug\Vista.exe
+C:\Users\Diego\Desktop\Investigacion Bases\ProyectoBases\Vista\bin\Debug\Vista.pdb
+C:\Users\Diego\Desktop\Investigacion Bases\ProyectoBases\Vista\bin\Debug\Controlador.dll
+C:\Users\Diego\Desktop\Investigacion Bases\ProyectoBases\Vista\bin\Debug\Modelo.dll
+C:\Users\Diego\Desktop\Investigacion Bases\ProyectoBases\Vista\bin\Debug\Controlador.pdb
+C:\Users\Diego\Desktop\Investigacion Bases\ProyectoBases\Vista\bin\Debug\Modelo.pdb
+C:\Users\Diego\Desktop\Investigacion Bases\ProyectoBases\Vista\obj\Debug\Vista.csprojResolveAssemblyReference.cache
+C:\Users\Diego\Desktop\Investigacion Bases\ProyectoBases\Vista\obj\Debug\Vista.frmCompra.resources
+C:\Users\Diego\Desktop\Investigacion Bases\ProyectoBases\Vista\obj\Debug\Vista.Properties.Resources.resources
+C:\Users\Diego\Desktop\Investigacion Bases\ProyectoBases\Vista\obj\Debug\Vista.csproj.GenerateResource.Cache
+C:\Users\Diego\Desktop\Investigacion Bases\ProyectoBases\Vista\obj\Debug\Vista.exe
+C:\Users\Diego\Desktop\Investigacion Bases\ProyectoBases\Vista\obj\Debug\Vista.pdb

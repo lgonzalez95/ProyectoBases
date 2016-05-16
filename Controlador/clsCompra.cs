@@ -15,11 +15,25 @@ namespace Controlador
         {
             strSentencia = "";
         }
-
+        // Metodo Para Insertar una compra 
         public Boolean mInsertar(clsConexionSQL cone, clsEntidadCompra pEntidadCompra)
         {
-            strSentencia = "insert into tbCompra(cedula, total) values('" + pEntidadCompra.getCedula() +
-                            "', '" + pEntidadCompra.getTotal() + "')";//Si da error quitar comillas simples
+            strSentencia = "insert into compra(idCompra,idCliente, total) values('" + pEntidadCompra.getIdcompra() +
+                            "', '" + pEntidadCompra.getIdcliente() + "' , '"+pEntidadCompra.getTotal()+"' )";
+            return cone.mEjecutar(strSentencia, cone);
+        }
+
+        // Metodo para seleccionar una compra
+        public SqlDataReader mSeleccionarCompra(clsConexionSQL cone, clsEntidadCompra pEntidadCompra)
+        {
+            strSentencia = "SELECT * FROM compra where idCompra='"+pEntidadCompra.getIdcliente()+"' ;";
+            return cone.mSeleccionar(strSentencia,cone);
+        }
+
+        // Metodo Para eliminar una compra 
+        public Boolean mEliminarCompra(clsConexionSQL cone, clsEntidadCompra pEntidadCompra)
+        {
+            strSentencia = "DELETE * FROM compra WHERE idCompra='"+pEntidadCompra.getIdcompra()+"' ;";
             return cone.mEjecutar(strSentencia, cone);
         }
     }

@@ -21,7 +21,6 @@ namespace Modelo
         {
             this.cedula = cedula;
         }
-
         public void setNombre(string nombre)
         {
             this.nombre = nombre;
@@ -30,8 +29,6 @@ namespace Modelo
         {
             this.apellidos = apellidos;
         }
-             
-        
 
         //Get
 
@@ -47,7 +44,7 @@ namespace Modelo
         {
             return this.apellidos;
         }
-        
+
         #endregion
     }
 }

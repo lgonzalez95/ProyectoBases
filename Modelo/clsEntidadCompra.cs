@@ -8,30 +8,41 @@ namespace Modelo
 {
     public class clsEntidadCompra
     {
+        // Region para los atributos    
         #region Atributos
-        private string cedula;
+        private string idCompra;
+        private string idCliente;
         private int total;
+
         #endregion
 
         #region Propiedades
 
-        //Set
-        public void setCedula(string cedula)
+        //Metodos Set de los atributos
+        public void setIdcliente(string idCliente)
         {
-            this.cedula = cedula;
+            this.idCliente = idCliente;
         }
         public void setTotal(int total)
         {
             this.total = total;
         }
-        //Get
-        public string getCedula()
+        public void setIdCompra(string idCompra)
         {
-            return this.cedula;
+            this.idCompra = idCompra;
+        }
+        //Metodos get para los atributos
+        public string getIdcliente()
+        {
+            return this.idCliente;
         }
         public int getTotal()
         {
             return this.total;
+        }
+        public string getIdcompra()
+        {
+            return idCompra;
         }
         #endregion
     }

@@ -3,8 +3,13 @@ f:\documentos\visual studio 2015\Projects\PracticaExamen\Modelo\bin\Debug\Modelo
 f:\documentos\visual studio 2015\Projects\PracticaExamen\Modelo\obj\Debug\Modelo.csprojResolveAssemblyReference.cache
 f:\documentos\visual studio 2015\Projects\PracticaExamen\Modelo\obj\Debug\Modelo.dll
 f:\documentos\visual studio 2015\Projects\PracticaExamen\Modelo\obj\Debug\Modelo.pdb
-F:\Documentos\Visual Studio 2015\Projects\ProyectoBases\Modelo\bin\Debug\Modelo.dll
-F:\Documentos\Visual Studio 2015\Projects\ProyectoBases\Modelo\bin\Debug\Modelo.pdb
-F:\Documentos\Visual Studio 2015\Projects\ProyectoBases\Modelo\obj\Debug\Modelo.csprojResolveAssemblyReference.cache
-F:\Documentos\Visual Studio 2015\Projects\ProyectoBases\Modelo\obj\Debug\Modelo.dll
-F:\Documentos\Visual Studio 2015\Projects\ProyectoBases\Modelo\obj\Debug\Modelo.pdb
+F:\Documentos\Visual Studio 2015\Projects\GitBases\ProyectoBases\Modelo\bin\Debug\Modelo.dll
+F:\Documentos\Visual Studio 2015\Projects\GitBases\ProyectoBases\Modelo\bin\Debug\Modelo.pdb
+F:\Documentos\Visual Studio 2015\Projects\GitBases\ProyectoBases\Modelo\obj\Debug\Modelo.csprojResolveAssemblyReference.cache
+F:\Documentos\Visual Studio 2015\Projects\GitBases\ProyectoBases\Modelo\obj\Debug\Modelo.dll
+F:\Documentos\Visual Studio 2015\Projects\GitBases\ProyectoBases\Modelo\obj\Debug\Modelo.pdb
+C:\Users\Diego\Desktop\Investigacion Bases\ProyectoBases\Modelo\bin\Debug\Modelo.dll
+C:\Users\Diego\Desktop\Investigacion Bases\ProyectoBases\Modelo\bin\Debug\Modelo.pdb
+C:\Users\Diego\Desktop\Investigacion Bases\ProyectoBases\Modelo\obj\Debug\Modelo.csprojResolveAssemblyReference.cache
+C:\Users\Diego\Desktop\Investigacion Bases\ProyectoBases\Modelo\obj\Debug\Modelo.dll
+C:\Users\Diego\Desktop\Investigacion Bases\ProyectoBases\Modelo\obj\Debug\Modelo.pdb
