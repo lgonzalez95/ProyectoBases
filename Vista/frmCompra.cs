@@ -146,12 +146,36 @@ namespace Vista
             return subTotal;
         }
 
+        private void llenarEntidades()
+        {
+            entidadCliente.setNombre(txtNombre.Text.Trim());
+            entidadCliente.setApellidos(txtApellidos.Text.Trim());
+            entidadCliente.setCedula(txtCedula.Text.Trim());
+
+            entidadCompra.setIdcliente(txtCedula.Text.Trim());
+            entidadCompra.setTotal(Convert.ToInt32(txtTotal.Text.Trim()));
+        }
+
         private void btnAgregaCompra_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Todo correcto", "(Y)", MessageBoxButtons.OK, MessageBoxIcon.Information);
+           
             if (verificarCampos() == true)
             {
-                MessageBox.Show("Todo correcto", "(Y)", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                llenarSeguridad();
+                llenarEntidades();
+                dtrCliente = cliente.mSeleccionarCliente(conexion, entidadCliente);
+                if (dtrCliente!=null)
+                {
+                    if (dtrCliente.Read())
+                    {
+                        compra.mInsertar(conexion,entidadCompra);
+                        MessageBox.Show("Compra agregada", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                    else
+                    {
+                        //El cliente no existe
+                    }
+                }
             }
             else
             {

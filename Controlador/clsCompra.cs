@@ -18,8 +18,7 @@ namespace Controlador
         // Metodo Para Insertar una compra 
         public Boolean mInsertar(clsConexionSQL cone, clsEntidadCompra pEntidadCompra)
         {
-            strSentencia = "insert into compra(idCompra,idCliente, total) values('" + pEntidadCompra.getIdcompra() +
-                            "', '" + pEntidadCompra.getIdcliente() + "' , '"+pEntidadCompra.getTotal()+"' )";
+            strSentencia = "insert into compra(idCliente, total) values( '" + pEntidadCompra.getIdcliente() + "' , '"+pEntidadCompra.getTotal()+"' )";
             return cone.mEjecutar(strSentencia, cone);
         }
 

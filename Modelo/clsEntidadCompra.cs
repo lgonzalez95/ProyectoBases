@@ -9,8 +9,7 @@ namespace Modelo
     public class clsEntidadCompra
     {
         // Region para los atributos    
-        #region Atributos
-        private string idCompra;
+        #region Atributos        
         private string idCliente;
         private int total;
 
@@ -27,10 +26,6 @@ namespace Modelo
         {
             this.total = total;
         }
-        public void setIdCompra(string idCompra)
-        {
-            this.idCompra = idCompra;
-        }
         //Metodos get para los atributos
         public string getIdcliente()
         {
@@ -39,10 +34,6 @@ namespace Modelo
         public int getTotal()
         {
             return this.total;
-        }
-        public string getIdcompra()
-        {
-            return idCompra;
         }
         #endregion
     }
