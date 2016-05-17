@@ -16,14 +16,25 @@ namespace Vista
     public partial class frmCompra : Form
     {
         clsConexionSQL conexion;
+        clsCliente cliente;
+        clsEntidadCliente entidadCliente;
         clsProducto producto;
         clsEntidadProducto entidadProducto;
         SqlDataReader dtrProducto;
+        SqlDataReader dtrCliente;
+        SqlDataReader dtrCompra;
+        clsCompra compra;
+        clsEntidadCompra entidadCompra;
+
         public frmCompra()
         {
             conexion = new clsConexionSQL();
             entidadProducto = new clsEntidadProducto();
+            entidadCliente = new clsEntidadCliente();
+            entidadCompra = new clsEntidadCompra();
             producto = new clsProducto();
+            cliente = new clsCliente();
+            compra = new clsCompra();
             InitializeComponent();
 
         }
@@ -57,13 +68,7 @@ namespace Vista
                 item.SubItems.Add(txtDescripcion.Text);
                 item.SubItems.Add(txtPrecio.Text);
                 item.SubItems.Add(txtCantidad.Text);
-                lvDetalleCompra.Items.Add(item);
-
-                //lvDetalleCompra.Items.Add(txtCodigo.Text);
-
-                //lvDetalleCompra.Items[posicion].SubItems.Add(txtDescripcion.Text);
-                //lvDetalleCompra.Items[posicion].SubItems.Add(txtPrecio.Text);
-                //lvDetalleCompra.Items[posicion].SubItems.Add(txtCantidad.Text);
+                lvDetalleCompra.Items.Add(item);             
 
             }
         }
@@ -141,7 +146,26 @@ namespace Vista
             return subTotal;
         }
 
-      
-       
+        private void btnAgregaCompra_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Todo correcto", "(Y)", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            if (verificarCampos() == true)
+            {
+                MessageBox.Show("Todo correcto", "(Y)", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+            {
+                MessageBox.Show("Favor agregar un producto", "Datos insuficientes", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+        }
+
+        private Boolean verificarCampos()
+        {
+            if ((txtCedula.Text.Trim() != "") & (txtNombre.Text.Trim() != "")  & (txtApellidos.Text.Trim()!="")& (Convert.ToInt32(txtTotal.Text.Trim()) > 0))
+            {
+                return true;
+            }
+            return false;
+        }
     }
 }

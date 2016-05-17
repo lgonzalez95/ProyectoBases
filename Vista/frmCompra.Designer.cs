@@ -32,11 +32,10 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.boxInfcliente = new System.Windows.Forms.GroupBox();
             this.txtApellidos = new System.Windows.Forms.TextBox();
-            this.txtNombreCompleto = new System.Windows.Forms.TextBox();
+            this.txtNombre = new System.Windows.Forms.TextBox();
             this.txtCedula = new System.Windows.Forms.TextBox();
             this.lblCedula = new System.Windows.Forms.Label();
             this.lblNombreCompleto = new System.Windows.Forms.Label();
-            this.lblTipoCliente = new System.Windows.Forms.Label();
             this.lblPrecio = new System.Windows.Forms.Label();
             this.lblDescripcion = new System.Windows.Forms.Label();
             this.lblCodigo = new System.Windows.Forms.Label();
@@ -60,6 +59,7 @@
             this.btnModificarCompra = new System.Windows.Forms.Button();
             this.btnAgregaCompra = new System.Windows.Forms.Button();
             this.txtTotal = new System.Windows.Forms.TextBox();
+            this.lblApellidos = new System.Windows.Forms.Label();
             this.boxInfcliente.SuspendLayout();
             this.boxInfProducto.SuspendLayout();
             this.boxControles.SuspendLayout();
@@ -75,12 +75,12 @@
             // boxInfcliente
             // 
             this.boxInfcliente.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.boxInfcliente.Controls.Add(this.lblApellidos);
             this.boxInfcliente.Controls.Add(this.txtApellidos);
-            this.boxInfcliente.Controls.Add(this.txtNombreCompleto);
+            this.boxInfcliente.Controls.Add(this.txtNombre);
             this.boxInfcliente.Controls.Add(this.txtCedula);
             this.boxInfcliente.Controls.Add(this.lblCedula);
             this.boxInfcliente.Controls.Add(this.lblNombreCompleto);
-            this.boxInfcliente.Controls.Add(this.lblTipoCliente);
             this.boxInfcliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.boxInfcliente.Location = new System.Drawing.Point(36, 50);
             this.boxInfcliente.Name = "boxInfcliente";
@@ -96,12 +96,12 @@
             this.txtApellidos.Size = new System.Drawing.Size(100, 23);
             this.txtApellidos.TabIndex = 4;
             // 
-            // txtNombreCompleto
+            // txtNombre
             // 
-            this.txtNombreCompleto.Location = new System.Drawing.Point(139, 82);
-            this.txtNombreCompleto.Name = "txtNombreCompleto";
-            this.txtNombreCompleto.Size = new System.Drawing.Size(100, 23);
-            this.txtNombreCompleto.TabIndex = 2;
+            this.txtNombre.Location = new System.Drawing.Point(139, 82);
+            this.txtNombre.Name = "txtNombre";
+            this.txtNombre.Size = new System.Drawing.Size(100, 23);
+            this.txtNombre.TabIndex = 2;
             // 
             // txtCedula
             // 
@@ -129,16 +129,6 @@
             this.lblNombreCompleto.Size = new System.Drawing.Size(62, 15);
             this.lblNombreCompleto.TabIndex = 0;
             this.lblNombreCompleto.Text = "Nombre:";
-            // 
-            // lblTipoCliente
-            // 
-            this.lblTipoCliente.AutoSize = true;
-            this.lblTipoCliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTipoCliente.Location = new System.Drawing.Point(9, 128);
-            this.lblTipoCliente.Name = "lblTipoCliente";
-            this.lblTipoCliente.Size = new System.Drawing.Size(70, 15);
-            this.lblTipoCliente.TabIndex = 0;
-            this.lblTipoCliente.Text = "Apellidos:";
             // 
             // lblPrecio
             // 
@@ -350,6 +340,7 @@
             this.btnAgregaCompra.Size = new System.Drawing.Size(75, 48);
             this.btnAgregaCompra.TabIndex = 0;
             this.btnAgregaCompra.UseVisualStyleBackColor = true;
+            this.btnAgregaCompra.Click += new System.EventHandler(this.btnAgregaCompra_Click);
             // 
             // txtTotal
             // 
@@ -358,6 +349,15 @@
             this.txtTotal.Size = new System.Drawing.Size(72, 21);
             this.txtTotal.TabIndex = 105;
             this.txtTotal.Text = "0";
+            // 
+            // lblApellidos
+            // 
+            this.lblApellidos.AutoSize = true;
+            this.lblApellidos.Location = new System.Drawing.Point(12, 129);
+            this.lblApellidos.Name = "lblApellidos";
+            this.lblApellidos.Size = new System.Drawing.Size(74, 17);
+            this.lblApellidos.TabIndex = 5;
+            this.lblApellidos.Text = "Apellidos";
             // 
             // frmCompra
             // 
@@ -402,7 +402,7 @@
         private System.Windows.Forms.ColumnHeader cantidad;
         private System.Windows.Forms.Label lblTotal;
         private System.Windows.Forms.TextBox txtApellidos;
-        private System.Windows.Forms.TextBox txtNombreCompleto;
+        private System.Windows.Forms.TextBox txtNombre;
         private System.Windows.Forms.TextBox txtCedula;
         private System.Windows.Forms.GroupBox boxInfProducto;
         private System.Windows.Forms.TextBox txtCodigo;
@@ -421,6 +421,7 @@
         private System.Windows.Forms.TextBox txtCantidad;
         private System.Windows.Forms.Label lblCantidad;
         private System.Windows.Forms.Button btnBuscar;
+        private System.Windows.Forms.Label lblApellidos;
     }
 }
 
