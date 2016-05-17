@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmCompra));
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.boxInfcliente = new System.Windows.Forms.GroupBox();
             this.txtApellidos = new System.Windows.Forms.TextBox();
@@ -73,7 +74,7 @@
             // 
             // boxInfcliente
             // 
-            this.boxInfcliente.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.boxInfcliente.BackColor = System.Drawing.Color.LightSeaGreen;
             this.boxInfcliente.Controls.Add(this.txtApellidos);
             this.boxInfcliente.Controls.Add(this.txtNombreCompleto);
             this.boxInfcliente.Controls.Add(this.txtCedula);
@@ -171,7 +172,7 @@
             // 
             // lvDetalleCompra
             // 
-            this.lvDetalleCompra.BackColor = System.Drawing.Color.LightGreen;
+            this.lvDetalleCompra.BackColor = System.Drawing.Color.YellowGreen;
             this.lvDetalleCompra.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.codigo,
             this.descripcion,
@@ -222,7 +223,7 @@
             // 
             // boxInfProducto
             // 
-            this.boxInfProducto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.boxInfProducto.BackColor = System.Drawing.Color.LightSeaGreen;
             this.boxInfProducto.Controls.Add(this.btnBuscar);
             this.boxInfProducto.Controls.Add(this.btnAgregar);
             this.boxInfProducto.Controls.Add(this.txtCantidad);
@@ -234,7 +235,7 @@
             this.boxInfProducto.Controls.Add(this.lblDescripcion);
             this.boxInfProducto.Controls.Add(this.lblCodigo);
             this.boxInfProducto.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.boxInfProducto.Location = new System.Drawing.Point(391, 50);
+            this.boxInfProducto.Location = new System.Drawing.Point(374, 50);
             this.boxInfProducto.Name = "boxInfProducto";
             this.boxInfProducto.Size = new System.Drawing.Size(312, 260);
             this.boxInfProducto.TabIndex = 101;
@@ -243,21 +244,22 @@
             // 
             // btnBuscar
             // 
-            this.btnBuscar.Location = new System.Drawing.Point(27, 208);
+            this.btnBuscar.Image = ((System.Drawing.Image)(resources.GetObject("btnBuscar.Image")));
+            this.btnBuscar.Location = new System.Drawing.Point(57, 208);
             this.btnBuscar.Name = "btnBuscar";
-            this.btnBuscar.Size = new System.Drawing.Size(75, 37);
+            this.btnBuscar.Size = new System.Drawing.Size(73, 37);
             this.btnBuscar.TabIndex = 11;
-            this.btnBuscar.Text = "Buscar";
+            this.btnBuscar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnBuscar.UseVisualStyleBackColor = true;
             this.btnBuscar.Click += new System.EventHandler(this.btnBuscar_Click);
             // 
             // btnAgregar
             // 
+            this.btnAgregar.Image = ((System.Drawing.Image)(resources.GetObject("btnAgregar.Image")));
             this.btnAgregar.Location = new System.Drawing.Point(208, 208);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(75, 37);
             this.btnAgregar.TabIndex = 10;
-            this.btnAgregar.Text = "Agregar";
             this.btnAgregar.UseVisualStyleBackColor = true;
             this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
@@ -310,48 +312,48 @@
             this.boxControles.Size = new System.Drawing.Size(268, 131);
             this.boxControles.TabIndex = 102;
             this.boxControles.TabStop = false;
-            this.boxControles.Text = "Controles";
+            this.boxControles.Text = "Controles Compra";
             // 
             // btnSalir
             // 
+            this.btnSalir.Image = ((System.Drawing.Image)(resources.GetObject("btnSalir.Image")));
             this.btnSalir.Location = new System.Drawing.Point(134, 80);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(75, 45);
             this.btnSalir.TabIndex = 3;
-            this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = true;
             this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click_1);
             // 
             // btnEliminarCompra
             // 
+            this.btnEliminarCompra.Image = ((System.Drawing.Image)(resources.GetObject("btnEliminarCompra.Image")));
             this.btnEliminarCompra.Location = new System.Drawing.Point(134, 20);
             this.btnEliminarCompra.Name = "btnEliminarCompra";
             this.btnEliminarCompra.Size = new System.Drawing.Size(75, 48);
             this.btnEliminarCompra.TabIndex = 2;
-            this.btnEliminarCompra.Text = "Eliminar Compra";
             this.btnEliminarCompra.UseVisualStyleBackColor = true;
             // 
             // btnModificarCompra
             // 
+            this.btnModificarCompra.Image = ((System.Drawing.Image)(resources.GetObject("btnModificarCompra.Image")));
             this.btnModificarCompra.Location = new System.Drawing.Point(11, 80);
             this.btnModificarCompra.Name = "btnModificarCompra";
             this.btnModificarCompra.Size = new System.Drawing.Size(75, 45);
             this.btnModificarCompra.TabIndex = 1;
-            this.btnModificarCompra.Text = "Modificar Compra";
             this.btnModificarCompra.UseVisualStyleBackColor = true;
             // 
             // btnAgregaCompra
             // 
+            this.btnAgregaCompra.Image = ((System.Drawing.Image)(resources.GetObject("btnAgregaCompra.Image")));
             this.btnAgregaCompra.Location = new System.Drawing.Point(11, 20);
             this.btnAgregaCompra.Name = "btnAgregaCompra";
             this.btnAgregaCompra.Size = new System.Drawing.Size(75, 48);
             this.btnAgregaCompra.TabIndex = 0;
-            this.btnAgregaCompra.Text = "Agregar Compra";
             this.btnAgregaCompra.UseVisualStyleBackColor = true;
             // 
             // txtTotal
             // 
-            this.txtTotal.Location = new System.Drawing.Point(631, 622);
+            this.txtTotal.Location = new System.Drawing.Point(526, 619);
             this.txtTotal.Name = "txtTotal";
             this.txtTotal.Size = new System.Drawing.Size(72, 21);
             this.txtTotal.TabIndex = 105;
@@ -361,7 +363,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Olive;
+            this.BackColor = System.Drawing.Color.DarkGray;
             this.ClientSize = new System.Drawing.Size(715, 685);
             this.ControlBox = false;
             this.Controls.Add(this.txtTotal);
@@ -415,10 +417,10 @@
         private System.Windows.Forms.Button btnModificarCompra;
         private System.Windows.Forms.Button btnAgregaCompra;
         private System.Windows.Forms.TextBox txtTotal;
-        private System.Windows.Forms.Button btnBuscar;
         private System.Windows.Forms.Label lblTipoCliente;
         private System.Windows.Forms.TextBox txtCantidad;
         private System.Windows.Forms.Label lblCantidad;
+        private System.Windows.Forms.Button btnBuscar;
     }
 }
 
