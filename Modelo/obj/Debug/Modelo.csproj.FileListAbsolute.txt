@@ -23,3 +23,7 @@ C:\Users\acerpc\Documents\ProyectoBasesNube\ProyectoBases\Modelo\bin\Debug\Model
 C:\Users\acerpc\Documents\ProyectoBasesNube\ProyectoBases\Modelo\obj\Debug\Modelo.csprojResolveAssemblyReference.cache
 C:\Users\acerpc\Documents\ProyectoBasesNube\ProyectoBases\Modelo\obj\Debug\Modelo.dll
 C:\Users\acerpc\Documents\ProyectoBasesNube\ProyectoBases\Modelo\obj\Debug\Modelo.pdb
+C:\Users\Diego\Desktop\InvestigacionBases\Modelo\bin\Debug\Modelo.dll
+C:\Users\Diego\Desktop\InvestigacionBases\Modelo\bin\Debug\Modelo.pdb
+C:\Users\Diego\Desktop\InvestigacionBases\Modelo\obj\Debug\Modelo.dll
+C:\Users\Diego\Desktop\InvestigacionBases\Modelo\obj\Debug\Modelo.pdb

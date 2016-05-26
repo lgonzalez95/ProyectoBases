@@ -417,7 +417,7 @@
         private System.Windows.Forms.Button btnModificarCompra;
         private System.Windows.Forms.Button btnAgregaCompra;
         private System.Windows.Forms.TextBox txtTotal;
-        private System.Windows.Forms.Label lblTipoCliente;
+       // private System.Windows.Forms.Label lblTipoCliente;
         private System.Windows.Forms.TextBox txtCantidad;
         private System.Windows.Forms.Label lblCantidad;
         private System.Windows.Forms.Button btnBuscar;

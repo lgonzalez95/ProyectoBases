@@ -32,7 +32,7 @@ namespace Controlador
         // Metodo Para eliminar una compra 
         public Boolean mEliminarCompra(clsConexionSQL cone, clsEntidadCompra pEntidadCompra)
         {
-            strSentencia = "DELETE * FROM compra WHERE idCompra='"+pEntidadCompra.getIdcompra()+"' ;";
+           // strSentencia = "DELETE * FROM compra WHERE idCompra='"+pEntidadCompra.getIdcompra()+"' ;";
             return cone.mEjecutar(strSentencia, cone);
         }
     }

@@ -76,3 +76,17 @@ C:\Users\acerpc\Documents\ProyectoBasesNube\ProyectoBases\Vista\obj\Debug\Vista.
 C:\Users\acerpc\Documents\ProyectoBasesNube\ProyectoBases\Vista\obj\Debug\Vista.frmCompra.resources
 C:\Users\acerpc\Documents\ProyectoBasesNube\ProyectoBases\Vista\obj\Debug\Vista.Properties.Resources.resources
 C:\Users\acerpc\Documents\ProyectoBasesNube\ProyectoBases\Vista\obj\Debug\Vista.csproj.GenerateResource.Cache
+C:\Users\Diego\Desktop\InvestigacionBases\Vista\bin\Debug\Vista.exe.config
+C:\Users\Diego\Desktop\InvestigacionBases\Vista\obj\Debug\Vista.exe
+C:\Users\Diego\Desktop\InvestigacionBases\Vista\obj\Debug\Vista.pdb
+C:\Users\Diego\Desktop\InvestigacionBases\Vista\bin\Debug\Vista.exe
+C:\Users\Diego\Desktop\InvestigacionBases\Vista\bin\Debug\Vista.pdb
+C:\Users\Diego\Desktop\InvestigacionBases\Vista\bin\Debug\Controlador.dll
+C:\Users\Diego\Desktop\InvestigacionBases\Vista\bin\Debug\Modelo.dll
+C:\Users\Diego\Desktop\InvestigacionBases\Vista\bin\Debug\Controlador.pdb
+C:\Users\Diego\Desktop\InvestigacionBases\Vista\bin\Debug\Modelo.pdb
+C:\Users\Diego\Desktop\InvestigacionBases\Vista\obj\Debug\Vista.csprojResolveAssemblyReference.cache
+C:\Users\Diego\Desktop\InvestigacionBases\Vista\obj\Debug\Vista.frmCompra.resources
+C:\Users\Diego\Desktop\InvestigacionBases\Vista\obj\Debug\Vista.Properties.Resources.resources
+C:\Users\Diego\Desktop\InvestigacionBases\Vista\obj\Debug\Vista.csproj.GenerateResource.Cache
+C:\Users\Diego\Desktop\InvestigacionBases\Vista\obj\Debug\Vista.frmAcceso.resources

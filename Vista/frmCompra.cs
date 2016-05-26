@@ -22,7 +22,7 @@ namespace Vista
         clsEntidadProducto entidadProducto;
         SqlDataReader dtrProducto;
         SqlDataReader dtrCliente;
-        SqlDataReader dtrCompra;
+        //SqlDataReader dtrCompra;
         clsCompra compra;
         clsEntidadCompra entidadCompra;
 

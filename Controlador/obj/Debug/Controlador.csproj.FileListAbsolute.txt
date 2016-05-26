@@ -33,3 +33,10 @@ C:\Users\acerpc\Documents\ProyectoBasesNube\ProyectoBases\Controlador\bin\Debug\
 C:\Users\acerpc\Documents\ProyectoBasesNube\ProyectoBases\Controlador\obj\Debug\Controlador.csprojResolveAssemblyReference.cache
 C:\Users\acerpc\Documents\ProyectoBasesNube\ProyectoBases\Controlador\obj\Debug\Controlador.dll
 C:\Users\acerpc\Documents\ProyectoBasesNube\ProyectoBases\Controlador\obj\Debug\Controlador.pdb
+C:\Users\Diego\Desktop\InvestigacionBases\Controlador\bin\Debug\Controlador.dll
+C:\Users\Diego\Desktop\InvestigacionBases\Controlador\bin\Debug\Controlador.pdb
+C:\Users\Diego\Desktop\InvestigacionBases\Controlador\bin\Debug\Modelo.dll
+C:\Users\Diego\Desktop\InvestigacionBases\Controlador\bin\Debug\Modelo.pdb
+C:\Users\Diego\Desktop\InvestigacionBases\Controlador\obj\Debug\Controlador.csprojResolveAssemblyReference.cache
+C:\Users\Diego\Desktop\InvestigacionBases\Controlador\obj\Debug\Controlador.dll
+C:\Users\Diego\Desktop\InvestigacionBases\Controlador\obj\Debug\Controlador.pdb
