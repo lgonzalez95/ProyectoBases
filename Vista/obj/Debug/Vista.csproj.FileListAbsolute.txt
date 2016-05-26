@@ -90,3 +90,4 @@ C:\Users\Diego\Desktop\InvestigacionBases\Vista\obj\Debug\Vista.frmCompra.resour
 C:\Users\Diego\Desktop\InvestigacionBases\Vista\obj\Debug\Vista.Properties.Resources.resources
 C:\Users\Diego\Desktop\InvestigacionBases\Vista\obj\Debug\Vista.csproj.GenerateResource.Cache
 C:\Users\Diego\Desktop\InvestigacionBases\Vista\obj\Debug\Vista.frmAcceso.resources
+F:\Documentos\Visual Studio 2015\Projects\ProyectoBases\Vista\obj\Debug\Vista.frmAcceso.resources

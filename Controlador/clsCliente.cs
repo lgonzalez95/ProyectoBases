@@ -28,7 +28,7 @@ namespace Controlador
         //Metodo para modificar un cliente
         public Boolean mModificarCliente(clsConexionSQL cone, clsEntidadCliente pEntidadEntidadCliente)
         {
-            strSentencia = "update cliente set nombre = ('" + pEntidadEntidadCliente.getCedula() + "', apellidos = '" + pEntidadEntidadCliente.getApellidos() + "' )";
+            strSentencia = "update cliente set nombre ='" + pEntidadEntidadCliente.getNombre() + "', apellidos = '" + pEntidadEntidadCliente.getApellidos() + "' where cedula='"+pEntidadEntidadCliente.getCedula()+"'  ";
             return cone.mEjecutar(strSentencia, cone);
         }
 
@@ -42,7 +42,7 @@ namespace Controlador
         // Metodo Para eliminar un cliente 
         public Boolean mEliminarClientes(clsConexionSQL cone, clsEntidadCliente pEntidadEntidadCliente)
         {
-            strSentencia = "DELETE * FROM cliente WHERE cedula='" + pEntidadEntidadCliente.getCedula() + "' ;";
+            strSentencia = "DELETE FROM cliente WHERE cedula='" + pEntidadEntidadCliente.getCedula() + "' ;";
             return cone.mEjecutar(strSentencia, cone);
         }
 

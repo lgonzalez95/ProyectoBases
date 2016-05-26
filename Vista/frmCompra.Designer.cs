@@ -31,6 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmCompra));
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.boxInfcliente = new System.Windows.Forms.GroupBox();
+            this.lblApellidos = new System.Windows.Forms.Label();
             this.txtApellidos = new System.Windows.Forms.TextBox();
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.txtCedula = new System.Windows.Forms.TextBox();
@@ -59,7 +60,7 @@
             this.btnModificarCompra = new System.Windows.Forms.Button();
             this.btnAgregaCompra = new System.Windows.Forms.Button();
             this.txtTotal = new System.Windows.Forms.TextBox();
-            this.lblApellidos = new System.Windows.Forms.Label();
+            this.btnBuscarCliente = new System.Windows.Forms.Button();
             this.boxInfcliente.SuspendLayout();
             this.boxInfProducto.SuspendLayout();
             this.boxControles.SuspendLayout();
@@ -75,7 +76,9 @@
             // boxInfcliente
             // 
             this.boxInfcliente.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.boxInfcliente.Controls.Add(this.btnBuscarCliente);
             this.boxInfcliente.Controls.Add(this.lblApellidos);
+            this.boxInfcliente.Controls.Add(this.btnModificarCompra);
             this.boxInfcliente.Controls.Add(this.txtApellidos);
             this.boxInfcliente.Controls.Add(this.txtNombre);
             this.boxInfcliente.Controls.Add(this.txtCedula);
@@ -88,6 +91,15 @@
             this.boxInfcliente.TabIndex = 0;
             this.boxInfcliente.TabStop = false;
             this.boxInfcliente.Text = "Información del cliente";
+            // 
+            // lblApellidos
+            // 
+            this.lblApellidos.AutoSize = true;
+            this.lblApellidos.Location = new System.Drawing.Point(12, 129);
+            this.lblApellidos.Name = "lblApellidos";
+            this.lblApellidos.Size = new System.Drawing.Size(74, 17);
+            this.lblApellidos.TabIndex = 5;
+            this.lblApellidos.Text = "Apellidos";
             // 
             // txtApellidos
             // 
@@ -295,19 +307,18 @@
             // 
             this.boxControles.Controls.Add(this.btnSalir);
             this.boxControles.Controls.Add(this.btnEliminarCompra);
-            this.boxControles.Controls.Add(this.btnModificarCompra);
             this.boxControles.Controls.Add(this.btnAgregaCompra);
             this.boxControles.Location = new System.Drawing.Point(25, 542);
             this.boxControles.Name = "boxControles";
             this.boxControles.Size = new System.Drawing.Size(268, 131);
             this.boxControles.TabIndex = 102;
             this.boxControles.TabStop = false;
-            this.boxControles.Text = "Controles Compra";
+            this.boxControles.Text = "Controles ";
             // 
             // btnSalir
             // 
             this.btnSalir.Image = ((System.Drawing.Image)(resources.GetObject("btnSalir.Image")));
-            this.btnSalir.Location = new System.Drawing.Point(134, 80);
+            this.btnSalir.Location = new System.Drawing.Point(91, 77);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(75, 45);
             this.btnSalir.TabIndex = 3;
@@ -317,20 +328,22 @@
             // btnEliminarCompra
             // 
             this.btnEliminarCompra.Image = ((System.Drawing.Image)(resources.GetObject("btnEliminarCompra.Image")));
-            this.btnEliminarCompra.Location = new System.Drawing.Point(134, 20);
+            this.btnEliminarCompra.Location = new System.Drawing.Point(175, 20);
             this.btnEliminarCompra.Name = "btnEliminarCompra";
             this.btnEliminarCompra.Size = new System.Drawing.Size(75, 48);
             this.btnEliminarCompra.TabIndex = 2;
             this.btnEliminarCompra.UseVisualStyleBackColor = true;
+            this.btnEliminarCompra.Click += new System.EventHandler(this.btnEliminarCompra_Click);
             // 
             // btnModificarCompra
             // 
             this.btnModificarCompra.Image = ((System.Drawing.Image)(resources.GetObject("btnModificarCompra.Image")));
-            this.btnModificarCompra.Location = new System.Drawing.Point(11, 80);
+            this.btnModificarCompra.Location = new System.Drawing.Point(203, 208);
             this.btnModificarCompra.Name = "btnModificarCompra";
-            this.btnModificarCompra.Size = new System.Drawing.Size(75, 45);
+            this.btnModificarCompra.Size = new System.Drawing.Size(75, 37);
             this.btnModificarCompra.TabIndex = 1;
             this.btnModificarCompra.UseVisualStyleBackColor = true;
+            this.btnModificarCompra.Click += new System.EventHandler(this.btnModificarCompra_Click);
             // 
             // btnAgregaCompra
             // 
@@ -350,14 +363,16 @@
             this.txtTotal.TabIndex = 105;
             this.txtTotal.Text = "0";
             // 
-            // lblApellidos
+            // btnBuscarCliente
             // 
-            this.lblApellidos.AutoSize = true;
-            this.lblApellidos.Location = new System.Drawing.Point(12, 129);
-            this.lblApellidos.Name = "lblApellidos";
-            this.lblApellidos.Size = new System.Drawing.Size(74, 17);
-            this.lblApellidos.TabIndex = 5;
-            this.lblApellidos.Text = "Apellidos";
+            this.btnBuscarCliente.Image = ((System.Drawing.Image)(resources.GetObject("btnBuscarCliente.Image")));
+            this.btnBuscarCliente.Location = new System.Drawing.Point(15, 208);
+            this.btnBuscarCliente.Name = "btnBuscarCliente";
+            this.btnBuscarCliente.Size = new System.Drawing.Size(73, 37);
+            this.btnBuscarCliente.TabIndex = 12;
+            this.btnBuscarCliente.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnBuscarCliente.UseVisualStyleBackColor = true;
+            this.btnBuscarCliente.Click += new System.EventHandler(this.btnBuscarCliente_Click);
             // 
             // frmCompra
             // 
@@ -422,6 +437,7 @@
         private System.Windows.Forms.Label lblCantidad;
         private System.Windows.Forms.Button btnBuscar;
         private System.Windows.Forms.Label lblApellidos;
+        private System.Windows.Forms.Button btnBuscarCliente;
     }
 }
 

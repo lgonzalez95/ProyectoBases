@@ -72,7 +72,7 @@ namespace Vista
                 String usuario = this.txtUsuario.Text;
                 String clave = this.txtContraseña.Text;
                 Boolean usuarioEncontrado = false;
-                String strSentencia = "SELECT * FROM usuario where nombre='" + usuario + "' , and clave='" + clave + "'";
+                String strSentencia = "SELECT * FROM usuario where nombre='" + usuario + "'  and clave='" + clave + "'";
                 dtr = conexion.mSeleccionar(strSentencia, conexion);
                 if(dtr!=null)
                 {

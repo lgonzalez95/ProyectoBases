@@ -173,7 +173,14 @@ namespace Vista
                     }
                     else
                     {
-                        //El cliente no existe
+                        if ((cliente.mInsertarCliente(conexion, entidadCliente) == true) & compra.mInsertar(conexion, entidadCompra) == true)
+                        {
+                            MessageBox.Show("Compra agregada correctamente", "éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        }
+                        else
+                        {
+                            MessageBox.Show("No se pudo procesar la compra", "Fracaso", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        }
                     }
                 }
             }
@@ -191,5 +198,108 @@ namespace Vista
             }
             return false;
         }
+
+        private void btnEliminarCompra_Click(object sender, EventArgs e)
+        {
+            llenarSeguridad();
+            entidadCliente.setCedula(txtCedula.Text.Trim());
+            dtrCliente = cliente.mSeleccionarCliente(conexion, entidadCliente);
+
+            if (dtrCliente != null)
+            {
+                if (dtrCliente.Read())//si existe
+                {
+
+                    if (cliente.mEliminarClientes(conexion, entidadCliente))
+                    {
+                        MessageBox.Show("Cliente eliminado", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                    else
+                    {
+                        MessageBox.Show("No se ha podido eliminar", "Fracaso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                }
+            }
+            else
+            {
+                MessageBox.Show("No se ha encontrado el código solicitado", "Producto no encontrado", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
+            }
+        }
+
+        public void consultarCliente()
+        {
+            llenarSeguridad();
+            entidadCliente.setCedula(txtCedula.Text.Trim());
+            dtrCliente = cliente.mSeleccionarCliente(conexion, entidadCliente);
+
+            if (dtrCliente != null)
+            {
+                if (dtrCliente.Read())//si existe
+                {
+
+                    this.txtNombre.Text = dtrCliente.GetString(1);
+                    this.txtApellidos.Text = dtrCliente.GetString(2);
+                }
+                else
+                {
+                    MessageBox.Show("No se ha encontrado el código solicitado", "Producto no encontrado", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+            }
+            else
+            {
+                MessageBox.Show("No se ha encontrado el código solicitado", "Producto no encontrado", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                limpiar();
+            }
+        }
+
+        private void btnBuscarCliente_Click(object sender, EventArgs e)
+        {
+            if (txtCedula.Text != "")
+            {
+                consultarCliente();
+            }
+            else
+            {
+                MessageBox.Show("Favor digite la cédula del cliente", "Datos insuficientes", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
+                limpiar();
+            }
+        }
+
+        private void btnModificarCompra_Click(object sender, EventArgs e)
+        {
+            entidadCliente.setCedula(txtCedula.Text.Trim());
+            dtrCliente = cliente.mSeleccionarCliente(conexion,entidadCliente);
+            if (dtrCliente != null)
+            {
+                if (dtrCliente.Read())//si existe
+                {
+
+                    entidadCliente.setNombre(txtNombre.Text.Trim());
+                    entidadCliente.setApellidos(txtApellidos.Text.Trim());
+                    cliente.mModificarCliente(conexion,entidadCliente);
+                    MessageBox.Show("Cliente modificado", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else
+                {
+                    MessageBox.Show("Cliente no encontrado", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+            }
+            else
+            {
+                MessageBox.Show("Cliente no encontrado", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            limpiar();
+        }
+
+        public void limpiar()
+        {
+            txtCodigo.Text = "";
+            txtDescripcion.Text = "";
+            txtCantidad.Text = "";
+            txtPrecio.Text = "";
+            txtCedula.Text = "";
+            txtNombre.Text = "";
+            txtApellidos.Text = "";
+        }   
     }
 }
